@@ -24,14 +24,20 @@ DB_NAME="user's database"
 DB_USER="root"
 DB_PASSWORD="userpassword"
 ``````````````````````````````
-
+To source the database, enter into the MySQL shell using `mysql -u root -p` and run:
+```````````
+source db/schema.sql
+````````````
 The seeds folder will contain data to populate the database. Run the database seeding using:
 ```````````
 npm run seed
 ```````````
 ## Links
 - [GitHub Repository](https://github.com/dashley2/e-commerce-back-end.git)
-
+- [Walkthrough Video 1 - Setup ](https://drive.google.com/file/d/1dLEAtY4voJIEuvOCJ7GZrAxcjrWECjST/view)
+- [Walkthrough Video 2 - Categories GET/POST/PUT/DELETE routes ](https://drive.google.com/file/d/1gKvC8ebaEgv18hJ2yplU4pO4UJJOFKl0/view)
+- [Walkthrough Video 3 - Products GET/POST/PUT/DELETE routes](https://drive.google.com/file/d/1tCF57t9I5LxapUreFFu-hrYiEumi_8wP/view)
+- [Walkthrough Video 4 - Tags GET/POST/PUT/DELETE routes](https://drive.google.com/file/d/1fSzMDUGq6mMsSE5D58zLaD8vxUErUG7a/view)
 ## Usage
 Use `node server.js` in the integrated terminal to run the application.
 
